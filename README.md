@@ -2,7 +2,7 @@
 
 This is a simple scheduler service that logs a string every minute.
 
-## How to publish to linux ?
+## How to publish node.js service to linux ?
 
 ### Steps:
 
