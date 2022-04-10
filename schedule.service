@@ -1,0 +1,9 @@
+[Unit]
+Description=node service
+
+[Service]
+WorkingDirectory=/home/emin/node/
+User=ubuntu
+ExecStart=/usr/bin/node /home/ubuntu/hello_env.js
+Restart=on-failure
+RestartSec=10
